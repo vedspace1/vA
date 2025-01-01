@@ -4,6 +4,10 @@ const localFeedback = document.getElementById("local-feedback");
 const remoteFeedback = document.getElementById("remote-feedback");
 const startCallButton = document.getElementById("start-call");
 const endCallButton = document.getElementById("end-call");
+const backendUrl = "https://vedspaceAI.onrender.com";
+const wsUrl = "wss://vedspaceAI.onrender.com/ws";
+
+
 
 let peerConnection;
 let socket;
